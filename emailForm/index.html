@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Form</title>
+</head>
+<body>
+    <div>
+        <Form >
+            <label for="FirstName">Enter First Name:</label>
+            <input type="text" id="FirstName" name="FirstName" placeholder="John"><br>
+
+            <label for="LastName">Enter Last Name:</label>
+            <input type="text" id="LastName" name="LastName" placeholder="Doe"><br>
+            
+            <label for="Email">Enter Email:</label>
+            <input type="text" id="Email" name="Email" placeholder="example@gmail.com"><br>
+            <button type="button" id="submit">Submit</button><br>
+            
+            <label for="picture">Upload Profile Picture:</label>
+            <input type="file" id="picture" accept="image/png, image/jpg">
+            <div id="show_image"></div>            
+        </Form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

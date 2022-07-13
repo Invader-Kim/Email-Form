@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+label {
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+input {
+    margin: 20px;
+    width: 250px;
+}
+
+#Email {
+    margin-left: 65px;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    margin-left: 33%;
+}
+
+#picture {    
+    margin-left: 33%;
+}
+
+#show_image {
+    width: 375px;
+    height: 211px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
