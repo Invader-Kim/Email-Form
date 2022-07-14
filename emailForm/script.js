@@ -1,6 +1,7 @@
 let Email = document.getElementById("Email");
 let submit = document.getElementById("submit"); 
 let submitTime = new Date();
+// let gender = document.getElementById("Gender");
 const regEx = {
     email: /^([\w\.\_]+)@([a-zA-Z])+\.([a-z]{2,3})(\.[a-z]{2,3})*$/,
     name: /^[a-zA-Z]+$/
@@ -49,6 +50,7 @@ submit.onclick = function validate(){
     } else {
         error();
     }    
-      
+
+    // (gender.value == "Male" || gender.value == "Female")? success() : error();      
 }
 
